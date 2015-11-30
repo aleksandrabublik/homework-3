@@ -10,7 +10,7 @@ function Result()
 	var PercentageOfReadiness = 0;                                                                        	
 	var i;                                                                                                 	
 																											
-	if (testform.task1.value == "ref /")                                                                   	
+	if (testform.task1.value == "a")                                                                   	
 	{                                                                                                      	
 		ResultTaskOne += 1;                                                                               	
 	}                                                                                                      	
@@ -29,7 +29,7 @@ function Result()
 	{                                                                                                      	
 		if (testform.task4[i].checked)                                                                     	
 		{                                                                                                  	
-			if (testform.task4[i].value == "td" || testform.task4[i].value == "groupcol")                  	
+			if (testform.task4[i].value == "td" || testform.task4[i].value == "col /")                  	
 			{                                                                                              	
 				ResultTaskFour += 1;                                                                      	
 			}                                                                                              	
